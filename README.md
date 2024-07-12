@@ -10,7 +10,7 @@ apt update
 
 apt upgrade
 
-_________________
+
 
 pkg install python
 
