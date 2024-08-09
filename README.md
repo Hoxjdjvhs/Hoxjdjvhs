@@ -1,25 +1,58 @@
-راه‌ اندازی نصب ابزار هک Termux
+فیشینگ همه در یک حساب های اجتماعی  در Termux
+
+درباره ابزار:
+mrphish یک اسکریپت مبتنی بر bash است که به طور رسمی برای حساب های رسانه های اجتماعی فیش*نگ با پورت فورواردینگ و کنترل دور زدن otp ساخته شده است. این ابزار هم روی دستگاه اندرویدی روت شده و هم بر روی دستگاه اندرویدی غیر روت کار می کند
 
 
-سیستم عامل مورد نیاز 
+الزامات »»
+اینترنت400 مگابایت 
+php
 
-اندروید(با‌ استفاده از برنامه ترمودکس )
+فضای ذخیره سازی600 مگابایت 
 
-روش‌نصب‌؟
+توکن ngrok
 
-ترمینال را باز کنید و دستورات زیر را تایپ کنید
+امکانات»»
+[+] بیش از 60 صفحه به روز رسانی
 
-$ apt update
+[+] نگهداری به روز شده
 
-$ apt upgrade
+[+] 1 گزینه حمل و نقل پورت
 
-$git clone
-https://github.com/rixon-cochi/hacking-tool.git
+[+] بدون مشکل پیوند، زمان بندی
 
-$ cd hackking-tool
+[+] 5+ دسته در صفحات
 
-$ bash install.sh
+[+] آسان برای مبتدیان
 
-$ bash tools.sh
+نصب و راه اندازی
+$ apt-get update -y
 
-$ ./tools.sh
+$ apt-get upgrade -y
+
+$ pkg install python -y
+
+$ pkg install python2 -y
+
+$ pkg install git -y
+
+$ pip install lolcat
+
+$ git clone https://github.com/noob-hackers/mrphish
+
+$ cd $HOME
+
+$ ls
+
+$ cd mrphish
+
+$ ls
+
+$ bash setup
+
+$ bash mrphish
+
+گزینه های استفاده [Termux
+
+Start the attack
+از این گزینه می توانید حمله را شروع کرده و گزینه موجود در ابزار را در مرحله بعد تایپ کنید ok.
